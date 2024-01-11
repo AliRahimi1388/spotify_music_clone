@@ -1,6 +1,7 @@
-package com.plcoding.spotifycloneyt.di
+package com.alixa.spotifycloneyt.di
 
 import android.content.Context
+import com.alixa.spotifycloneyt.data.remote.MusicDatabase
 import com.google.android.exoplayer2.C
 import com.google.android.exoplayer2.C.USAGE_MEDIA
 import com.google.android.exoplayer2.SimpleExoPlayer
@@ -27,6 +28,11 @@ object ServiceModule {
             .build()
 
 
+    @ServiceScoped
+    @Provides
+    fun provideMusicDatabase() = MusicDatabase()
+
+
     @Provides
     @ServiceScoped
     fun provideExoPlayer(
@@ -45,6 +51,6 @@ object ServiceModule {
         @ApplicationContext context: Context
     ) = DefaultDataSourceFactory(
         context,
-        Util.getUserAgent(context, "Spotify Application")
+        Util.getUserAgent(context, "Spotify App")
     )
 }
