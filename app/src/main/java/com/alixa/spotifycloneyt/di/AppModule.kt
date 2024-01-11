@@ -1,4 +1,4 @@
-package com.plcoding.spotifycloneyt.di
+package com.alixa.spotifycloneyt.di
 
 import android.content.Context
 import com.alixa.spotifycloneyt.R

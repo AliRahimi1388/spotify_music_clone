@@ -1,4 +1,4 @@
-package com.plcoding.spotifycloneyt.data.entities
+package com.alixa.spotifycloneyt.data.entities
 
 data class Song(
 

@@ -9,7 +9,7 @@ android {
     buildToolsVersion '34.0.0'
 
     defaultConfig {
-        applicationId "com.alirahimi.spotifycloneyt"
+        applicationId "com.alixa.spotifycloneyt"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1

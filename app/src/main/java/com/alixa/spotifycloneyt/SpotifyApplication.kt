@@ -1,4 +1,4 @@
-package com.plcoding.spotifycloneyt
+package com.alixa.spotifycloneyt
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,8 +1,8 @@
-package com.plcoding.spotifycloneyt.data.remote
+package com.alixa.spotifycloneyt.data.remote
 
 import com.google.firebase.firestore.FirebaseFirestore
-import com.plcoding.spotifycloneyt.data.entities.Song
-import com.plcoding.spotifycloneyt.other.Constants.SONG_COLLECTION
+import com.alixa.spotifycloneyt.data.entities.Song
+import com.alixa.spotifycloneyt.other.Constants.SONG_COLLECTION
 import kotlinx.coroutines.tasks.await
 
 class MusicDatabase {
