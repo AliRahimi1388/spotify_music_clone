@@ -2,6 +2,7 @@ package com.alixa.spotifycloneyt.di
 
 import android.content.Context
 import com.alixa.spotifycloneyt.R
+import com.alixa.spotifycloneyt.exoplayer.MusicServiceConnection
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
@@ -26,4 +27,9 @@ object AppModule {
             .error(R.drawable.ic_image)
             .diskCacheStrategy(DiskCacheStrategy.DATA)
     )
+
+    @Provides
+    @Singleton
+    fun provideMusicServiceConnection(@ApplicationContext context: Context) =
+        MusicServiceConnection(context)
 }
