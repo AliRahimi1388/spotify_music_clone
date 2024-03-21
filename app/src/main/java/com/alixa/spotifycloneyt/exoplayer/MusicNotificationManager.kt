@@ -7,8 +7,8 @@ import android.graphics.drawable.Drawable
 import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.MediaSessionCompat
 import com.alixa.spotifycloneyt.R
-import com.alixa.spotifycloneyt.other.Constants.NOTIFICATION_CHANNEL_ID
-import com.alixa.spotifycloneyt.other.Constants.NOTIFICATION_ID
+import com.alixa.spotifycloneyt.common.Constants.NOTIFICATION_CHANNEL_ID
+import com.alixa.spotifycloneyt.common.Constants.NOTIFICATION_ID
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition

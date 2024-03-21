@@ -1,4 +1,4 @@
-package com.alixa.spotifycloneyt.other
+package com.alixa.spotifycloneyt.common
 
 data class Resource<out T>(
     val status: Status,

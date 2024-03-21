@@ -1,4 +1,4 @@
-package com.alixa.spotifycloneyt.other
+package com.alixa.spotifycloneyt.common
 
 object Constants {
     const val SONG_COLLECTION = "songs"

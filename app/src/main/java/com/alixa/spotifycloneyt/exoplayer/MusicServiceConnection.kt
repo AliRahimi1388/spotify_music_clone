@@ -9,9 +9,9 @@ import android.support.v4.media.session.MediaControllerCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.alixa.spotifycloneyt.other.Constants.NETWORK_ERROR
-import com.alixa.spotifycloneyt.other.Event
-import com.alixa.spotifycloneyt.other.Resource
+import com.alixa.spotifycloneyt.common.Constants.NETWORK_ERROR
+import com.alixa.spotifycloneyt.common.Event
+import com.alixa.spotifycloneyt.common.Resource
 
 class MusicServiceConnection(
     context: Context

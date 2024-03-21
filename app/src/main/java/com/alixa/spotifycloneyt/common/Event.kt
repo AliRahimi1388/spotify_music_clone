@@ -1,4 +1,4 @@
-package com.alixa.spotifycloneyt.other
+package com.alixa.spotifycloneyt.common
 
 open class Event<out T>(private val data: T) {
     var hasBeenHandled = false
